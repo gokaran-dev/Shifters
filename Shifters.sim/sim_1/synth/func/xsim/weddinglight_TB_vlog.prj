@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"weddinglight_TB_func_synth.v" \
+"../../../../../../frequency_divider/frequency_divider.srcs/sim_1/new/weddinglight_TB.v" \
+
+# Do not sort compile order
+nosort
