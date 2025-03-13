@@ -1,0 +1,1 @@
+-wto "543e971c6a7d47228a3e791ad73585d0" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "secureip" --snapshot "ASR_Ring_8bitTB_func_synth" "xil_defaultlib.ASR_Ring_8bitTB" "xil_defaultlib.glbl" -log "elaborate.log" 

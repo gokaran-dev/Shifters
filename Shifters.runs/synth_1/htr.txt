@@ -6,4 +6,4 @@ REM          to be invoked for Vivado to track run status.
 REM Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 REM
 
-vivado -log weddinglight.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source weddinglight.tcl
+vivado -log ASR_Ring_8bit.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ASR_Ring_8bit.tcl

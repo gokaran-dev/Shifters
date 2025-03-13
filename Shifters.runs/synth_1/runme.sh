@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log weddinglight.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source weddinglight.tcl
+EAStep vivado -log ASR_Ring_8bit.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ASR_Ring_8bit.tcl

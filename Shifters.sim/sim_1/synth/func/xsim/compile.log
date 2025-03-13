@@ -1,5 +1,5 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Mtech/Vivado/shifters/Shifters.sim/sim_1/synth/func/xsim/weddinglight_TB_func_synth.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module weddinglight
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Mtech/Vivado/shifters/Shifters.sim/sim_1/synth/func/xsim/ASR_Ring_8bitTB_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASR_Ring_8bit
 INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Mtech/Vivado/frequency_divider/frequency_divider.srcs/sim_1/new/weddinglight_TB.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module weddinglight_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Mtech/Vivado/shifters/Shifters.srcs/sim_1/new/ASR_Ring_8bitTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASR_Ring_8bitTB

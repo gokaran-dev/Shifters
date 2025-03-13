@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"ASR_Ring_8bitTB_func_synth.v" \
+"../../../../../Shifters.srcs/sim_1/new/ASR_Ring_8bitTB.v" \
+
+# Do not sort compile order
+nosort

@@ -1,13 +1,13 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
--------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Wed Mar 12 23:45:52 2025
+| Date         : Thu Mar 13 23:15:10 2025
 | Host         : DESKTOP-IJF0GJG running 64-bit major release  (build 9200)
-| Command      : report_utilization -file weddinglight_utilization_synth.rpt -pb weddinglight_utilization_synth.pb
-| Design       : weddinglight
+| Command      : report_utilization -file ASR_Ring_8bit_utilization_synth.rpt -pb ASR_Ring_8bit_utilization_synth.pb
+| Design       : ASR_Ring_8bit
 | Device       : 7a35ticpg236-1L
 | Design State : Synthesized
--------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 
 Utilization Design Information
 
@@ -33,8 +33,8 @@ Table of Contents
 | Slice LUTs*             |    0 |     0 |     20800 |  0.00 |
 |   LUT as Logic          |    0 |     0 |     20800 |  0.00 |
 |   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
-| Slice Registers         |   16 |     0 |     41600 |  0.04 |
-|   Register as Flip Flop |   16 |     0 |     41600 |  0.04 |
+| Slice Registers         |    8 |     0 |     41600 |  0.02 |
+|   Register as Flip Flop |    8 |     0 |     41600 |  0.02 |
 |   Register as Latch     |    0 |     0 |     41600 |  0.00 |
 | F7 Muxes                |    0 |     0 |     16300 |  0.00 |
 | F8 Muxes                |    0 |     0 |      8150 |  0.00 |
@@ -57,7 +57,7 @@ Table of Contents
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 16    |          Yes |       Reset |            - |
+| 8     |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -90,7 +90,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Fixed | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |   18 |     0 |       106 | 16.98 |
+| Bonded IOB                  |   10 |     0 |       106 |  9.43 |
 | Bonded IPADs                |    0 |     0 |        10 |  0.00 |
 | Bonded OPADs                |    0 |     0 |         4 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |         5 |  0.00 |
@@ -149,8 +149,8 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| OBUF     |   16 |                  IO |
-| FDRE     |   16 |        Flop & Latch |
+| OBUF     |    8 |                  IO |
+| FDRE     |    8 |        Flop & Latch |
 | IBUF     |    2 |                  IO |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+

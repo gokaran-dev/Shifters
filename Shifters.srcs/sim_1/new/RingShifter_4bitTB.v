@@ -6,9 +6,8 @@ module RingShifter_4bitTB();
         reg clk,rst;
         reg d;
         wire [3:0]dout;
-        wire load;
         
-        RingShifter_4bit uut(.clk(clk),.rst(rst),.q(dout),.d(d),.load(load));
+        RingShifter_4bit uut(.clk(clk),.rst(rst),.q(dout),.d(d));
         
         initial
             begin
