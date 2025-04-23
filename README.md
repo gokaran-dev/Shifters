@@ -18,7 +18,7 @@ All modules were simulated and tested using Vivado and verified on hardware usin
 
 ### 1. WeddingLight (Pattern 1)
 #### Schematic
-![WeddingLight Schematic](results/pattern_1_schematic.png)
+![WeddingLight Schematic](results/pattern_1.png)
 
 #### Output Waveform
 ![WeddingLight Output](results/pattern_1_output.png)
@@ -27,7 +27,7 @@ All modules were simulated and tested using Vivado and verified on hardware usin
 
 ### 2. WeddingLight_2 (Pattern 2)
 #### Schematic
-![WeddingLight_2 Schematic](results/pattern_2_schematic.png)
+![WeddingLight_2 Schematic](results/pattern_2.png)
 
 #### Output Waveform
 ![WeddingLight_2 Output](results/pattern_2_output.png)
